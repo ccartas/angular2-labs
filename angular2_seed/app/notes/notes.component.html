@@ -1,0 +1,8 @@
+<div>
+    <h1>Hello from notes component</h1>
+    <input placeholder="Note name" type="text" [(ngModel)]="noteName" />
+    <button (click)="addNote()">ADD</button>
+    <ul>
+        <li *ngFor="let note of notes;let i = index">{{note.name}}<button (click)="removeNote(i)">Remove</button></li>
+    </ul>
+</div>

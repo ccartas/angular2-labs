@@ -5,7 +5,9 @@
     "start": "./node_modules/nodemon/bin/nodemon.js server.js"
   },
   "dependencies": {
-    "express": "~4.12.4"
+    "body-parser": "^1.18.3",
+    "express": "~4.12.4",
+    "express-session": "^1.15.6"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"

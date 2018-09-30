@@ -1,0 +1,10 @@
+<div>
+  <h1>This is tasks component</h1>
+  <input type="text" [formControl]="taskSearch"
+   (focus)="toggleDropdown()"
+   (blur)="toggleDropdown()"
+   placeholder="Task name" />
+  <div class="values-container" *ngIf="isSearchFocused">
+      <button *ngFor="let val of foundValues">{{val}}</button>
+  </div>
+</div>

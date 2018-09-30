@@ -1,0 +1,11 @@
+<div>
+  <h1>{{title}}</h1>
+  <input #noteValue type="text" placeholder="Note name"/>
+  <button (click)="addNote(noteValue)">ADD NOTE</button>
+  {{errorMessage}}
+  <ul>
+    <li *ngFor="let note of notes;let i = index">
+      {{note.name}}<button (click)="removeNote(i)">REMOVE</button>
+    </li>
+  </ul>
+</div>

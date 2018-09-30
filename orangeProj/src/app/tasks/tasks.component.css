@@ -1,0 +1,8 @@
+.values-container {
+    display: grid;
+    width: 30%;
+}
+.values-container button:hover {
+    color: #fff;
+    background-color: orange;
+}

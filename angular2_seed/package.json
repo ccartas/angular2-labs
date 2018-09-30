@@ -23,6 +23,7 @@
     "angular-in-memory-web-api": "~0.1.1",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "postinstall": "^0.4.2",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.4.2",
     "systemjs": "0.19.39",
@@ -33,6 +34,6 @@
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
     "typescript": "^2.0.3",
-    "typings":"^0.8.1"
+    "typings": "^0.8.1"
   }
 }
